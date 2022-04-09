@@ -1,0 +1,163 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+    padding-left: 200px;
+    background-color: #1f2937;
+    margin: 0px;
+}
+
+.link.one{
+    margin-left: auto;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header .three {
+    padding-right: 200px;
+}
+
+.header div {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.upmid {
+    display: flex;
+    padding: 200px;
+    padding-top: 120px;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.placeimg {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midone h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 1px;
+}
+
+.midone p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 6px;
+}
+
+.midone button {
+    background-color: #3882f6;
+    padding: 6px 25px;
+    font-weight: bold;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    height: 200px;
+    width: 200px;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+}
+
+.midlow {
+    display: flex;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images div {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.images p {
+    margin-top: 5px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 70px 280px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote em {
+    align-self: flex-end;
+    color: black;
+}
+
+.pslow {
+    display: flex;
+    justify-content: center;
+}
+
+.slow {
+    height: 140px;
+    width: 1000px;
+    background-color: #3882f6;
+    margin: 100px 100px;
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+    justify-content: center;
+    gap: 120px;
+    border-radius: 10px;
+}
+
+.slow p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.slow button {
+    padding: 10px 30px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.foot {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px;
+    font-size: 18px;
+}
